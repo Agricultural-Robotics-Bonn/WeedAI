@@ -1,0 +1,75 @@
+dataset:
+  # name: WeedAI21
+  location: /home/michael/nfs/cube1/scratchdata/pzimmer/stuff_to_share
+  coconame: WAI_2021
+  subsets:
+  - train
+  - valid
+  - eval
+  extension: png
+  class_num: 2
+  class_type: plant
+  class_labels:
+  - bg
+  - plant
+  class_weights:
+  - 1.47445370087484
+  - 14.8543713049902
+  things_ids: [1]
+  stuff_ids: [0]
+  transforms:
+    use: true
+    colourjitter:
+      use: true
+      p: 0.5
+      mode: l
+      range: 10
+    colourjitter:
+      use: true
+      p: 0.5
+      mode: rgb
+      range: 0.05
+    randomcrop:
+      use: false
+      p: 0.5
+      height: 1152
+      width: 648
+    randomrotate:
+      use: true
+      p: 0.5
+      degree: 10
+    rescale:
+      use: true
+      output_size:
+      - 480
+      - 864
+      ispanoptic: true
+    meanstdnorm:
+      use: true
+      RGB_mean_arr:
+      - 0.5
+      - 0.5
+      - 0.5
+      RGB_std_arr:
+      - 0.5
+      - 0.5
+      - 0.5
+    randomflip:
+      use: true
+      mode: lr
+      p: 0.5
+    edge:
+      use: False
+      blur: 9
+      ispanoptic: true
+    panoptic:
+      use: true
+      radius: 1
+      blur: 9
+    totensor:
+      use: true
+dataloader:
+  batch_size: 1
+  shuffle: true
+  workers_num: 0
+  drop_last: true

@@ -1,0 +1,11 @@
+numpy==1.19.5
+torch==1.9.1
+torchvision==0.10.1
+torchcontrib==0.0.2
+pytorch-lightning==1.2.10
+scikit-learn==0.24.2
+scikit-image==0.17.2
+tensorboardX
+opencv-python==4.5.3.56
+pycocotools==2.0.7
+pyyaml
