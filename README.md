@@ -6,9 +6,7 @@ In this github repository we release the novel WeedAI dataset and our pseudo-lab
 > **A Cross-Domain Challenge with Panoptic Segmentation in Agriculture**
 > _The International Journal of Robotics Research_
 
-The WeedAI dataset is available [here](https://uni-bonn.sciebo.de/s/vJBrCahb4lvDSXQ) for download.
-
-This dataset includes the following information:
+The WeedAI dataset is available [here](https://uni-bonn.sciebo.de/s/vJBrCahb4lvDSXQ) for download. It is available in the CoCo format and an example dataloader is available 
 
 
 ***
