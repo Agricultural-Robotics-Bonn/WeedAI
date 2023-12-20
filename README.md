@@ -8,5 +8,5 @@ In this github repository we release the novel WeedAI dataset and our pseudo-lab
 
 
 
-
+___
 [1] Crop and Weed Dataset.
