@@ -32,4 +32,4 @@ An example of how to run the dataloader and extract samples using the example co
 To evaluate on the CAW dataset for this work we needed to generate pseudo-labels for panoptic segmentation. These labels were generated using the stem location supplied in the dataset and the connected components algorithm. These labels along with our training/validation/evaluation splits can be downloaded from [here](https://uni-bonn.sciebo.de/s/fIJHA74SMpVYgNX). Please note, these pseudo-labels are noisy as stated in the paper and are only generated for the background/crop class.
 
 ***
-[1] Crop and Weed Dataset.
+[1] Steininger, Daniel and Trondl, Andreas and Croonen, Gerardus and Simon, Julia and Widhalm, Verena. **The CropAndWeed Dataset: A Multi-Modal Learning Approach for Efficient Crop and Weed Manipulation**, _Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)_, 2023
