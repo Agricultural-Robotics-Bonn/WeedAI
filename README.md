@@ -25,7 +25,9 @@ To use this dataloader you will need the following requirements (see _requiremen
 - pycocotools==2.0.7
 - pyyaml
 
-An example of how to run the dataloader and extract samples using the example config file (_configs/WeedAI_plant.yml_) is shown in the python script _example.py_.
+An example of how to run the dataloader and extract samples using the example config file (_configs/WeedAI_plant.yml_) is shown in the python script _example.py_. You should note that in the yml file your _dataset.location should be the root location prior to the _dataset_ directory.
+
+| Your directory location | datasets | WeedAI
 
 ## Crop and Weed Dataset
 
